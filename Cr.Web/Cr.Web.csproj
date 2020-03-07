@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<Authors>Craiqser</Authors>
+		<Product />
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageLicenseFile></PackageLicenseFile>
+		<Copyright />
+		<PackageProjectUrl></PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Craiqser/Cr</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageIcon>crab-logo-128.png</PackageIcon>
+		<PackageIconUrl />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\Assets\Images\crab-logo-128.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.8">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+</Project>
